@@ -14,399 +14,416 @@ body {
   *,
   *:after,
   *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
-  a { text-decoration: none; color: #FFB81C; !important}
-  img{max-width: 100%;}
+  a { text-decoration: none; color: #FFB81C; !important;}
+  img{max-width: 100%;
+}
 
   .openpaycenter {
     max-width: 1170px;
     margin: 0 auto;
-}
+  }
 
-.openpay-wrap {
+  .openpay-wrap {
     width: 100%;
     display: inline-block;
     vertical-align: top;
     color: #000000; 
-}
+  }
 
-.openpay-wrap h1 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 38px;
-  text-align: center;
-  padding: 5px 0 15px 0;
-  margin: 0 auto;
-  color: #333332;
-}
+  .openpay-wrap h1 {
+    font-family: 'openpay_headlineregular', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 38px;
+    text-align: center;
+    padding: 5px 0 15px 0;
+    margin: 0 auto;
+    color: #333332;
+  }
 
-.openpay-wrap h2 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 55px;
-  text-align: center;
-  padding: 0;
-  color:#FFB81C;
-  background:#333332;
-}
+  .openpay-wrap h2 {
+    font-family: 'openpay_headlineregular', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 55px;
+    text-align: center;
+    padding: 0;
+    color:#FFB81C;
+    background:#333332;
+  }
 
-.openpay-wrap h3 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 36px;
-  text-align: center;
-  color: #333332;
-}
+  .openpay-wrap h3 {
+    font-family: 'openpay_headlineregular', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 36px;
+    text-align: center;
+    color: #333332;
+  }
 
-.openpay-wrap h4 {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 24px;
-  text-align: center;
-  margin: 10px 0;
-}
+  .openpay-wrap h4 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px 0;
+  }
 
 
-.openpay-wrap p {
-  font-family: 'canada-type-gibson', sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  padding: 20px;
-  color: #333332;
-}
+  .openpay-wrap p {
+    font-family: 'canada-type-gibson', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 20px;
+    color: #333332;
+  }
 
-.openpay-wrap p a {
-  color: #38465b;
-  font-weight: 600px;
-  text-decoration: underline;
-}
+  .openpay-wrap p a {
+    color: #38465b;
+    font-weight: 600px;
+    text-decoration: underline;
+  }
 
-.openpay-head-block {
+  .openpay-head-block {
     width: 100%;
     text-align:center;
     position: relative;
     margin: 40px 0 0;
-}
+  }
 
-.openpay-head-block img {
+  .openpay-head-block img {
     width: 27%;
     padding: 30px 0px 0px 0px
-}
+  }
 
-.four-circle-block {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 50px 0px 0px;
-}
-
-.four-circle-block ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.four-circle-block ul li {
-  width: 21%;
-  display: inline-block;
-  padding: 30px 30px;
-  vertical-align: top;
-}
-
-.four-circle-block ul li img {
-  width: 54%;
-}
-
-.four-circle-block ul li p {
-  font-family: 'canada-type-gibson', sans-serif;
-  color: #333332;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  margin: 0 auto;
-  padding:15px 0 0 0;
-}
-
-.four-circle-block ul li b {
-  font-family: 'openpay_headlineregular';
-  font-weight: 10;
-}
-
-.four-circle-block ul li p b span {
-  font-size:20px;
-  font-weight: 600;
-}
-
-.openpay-content-row-top {
-  width: 100%;
-  margin: 0 auto 20px;
-  font-weight: 600;
-}
-
-.openpay-content-row-top p { 
-  font-family: 'canada-type-gibson', sans-serif;
-  color: #333332;
-  font-weight: 100;
-  font-size: 20px !important;
-}
-
-.available { 
-  margin-top:30px !important;
-  background: #333332 !important;
-}
-
-.available p { 
-  font-family: 'openpay_headlineregular';
-  color: #FFB81C !important;
-  line-height: 30px;
-}
-
-.openpay-content-row {
-  font-family: 'canada-type-gibson', sans-serif;
-  color: #333332;
-  font-weight: 100;
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px;
-  font-size: 30;
-}
-
-.started {
-  background: #F2F2F2;
-  width: 100%;
-
-}
-
-.started  ul {
-  padding: 30px 190px 0px 190px;
-  /*text-align: left;*/
-  text-align:left;
-}
-
-.started  ul li::before {
-  content: "\25A0";  
-  color: #FFB81C; 
-  width: 0em;
-  margin-left: 0em; 
-}
-
-.started ul li {
-  list-style-position: outside;  
-  display: inline-block;
-  vertical-align: top;
-  text-align: left !important;
-  padding: 0px 0px 12px 0px;
-  width:33%;
-}
-
-.apps {
-  background: #FFB81C;
-  width: 100%;
-}
-
-.apps ul {
-  list-style: none;
-  text-align:center;
-}
-
-.apps ul li {
-  width: 44%;
-  display: inline;
-  margin: 0 auto;
-  padding:0px;
-}
-
-.apps ul li img {
-  width: 14%;
-}
-
-.quick {
-  background: #FFFFFF;
-  width: 100%;
-  padding: 0 100px;
-}
-
-.quick h3 {
-  margin: 50px 0 30px;
-}
-
-.collapsible {
-  font-family: 'openpay_headlineregular';
-  font-size: 14px;
-  background-color: #FFFFFF;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px 0 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  border-top:1px solid #000000;
-}
-
-.active, .collapsible:hover {
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: #FFB81C;
-  float: right;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 60px 0 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in;
-  background-color: #FFFFFF;
-  text-align: left !important;
-}
-
-.content p {
-  text-align:left !important;
-  font-size: 16px !important;
-  padding: 0px 0px 18px 0px !important;
-}
-
-.content a {
-  color:#FFB81C !important;
-}
-
-.footer {
-
-}
-.footer p {
-  font-size: 16px !important;
-}
-
-.footer a {
-    color:#FFB81C !important;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-
-  .four-circle-block ul li {
-    width: 45%;
-    display: inline-block;
-}
-
-.started {
-    padding: 25px !important;
-
-}
-.started  ul {
-    padding:25px 0px 0px 0px;
-}
-
-.started  ul li::before {
-
-}
-
-.started ul li {
-    vertical-align: top !important;
-    width:49%;
-}
-
-
-}
-
-@media only screen and (max-width: 767px) {
-
-  .openpay-head-block {
-    margin: 50px 0 0;
-}
-
-.openpay-head-block img{
-    width: 44%;
-}
-
-.openpay-wrap h1 {
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0 auto;
-    padding: 10px 0;
-}
-
-.openpay-wrap p {
-    font-size: 17px !important;
-    line-height: 22px;
-    text-align: center;
-    padding: 20px;
-}
-
-.available {
-    margin-top:30px !important; 
-    padding: 9px 25px;
-}
-
-.openpay-wrap h2 {
-    line-height: 24px;
-}
-
-.four-circle-block ul li img {
-    width: 60%;
-}
-
-.four-circle-block ul li {
-    width: 49%;
-    display: inline-block;
-    padding: 30px 15px;
-}
-
-.four-circle-block ul li p{
+  .four-circle-block {
     width: 100%;
     display: inline-block;
-    line-height: 22px;
-} 
-.started {
-    padding: 25px 25px 0 25px!important;
+    vertical-align: top;
+    text-align: center;
+    padding: 50px 0px 0px;
+  }
+
+  .four-circle-block ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .four-circle-block ul li {
+    width: 21%;
+    display: inline-block;
+    padding: 30px 30px;
+    vertical-align: top;
+  }
+
+  .four-circle-block ul li img {
+    width: 54%;
+  }
+
+  .four-circle-block ul li p {
+    font-family: 'canada-type-gibson', sans-serif;
+    color: #333332;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    padding:15px 0 0 0;
+  }
+
+  .four-circle-block ul li b {
+    font-family: 'openpay_headlineregular';
+    font-weight: 10;
+  }
+
+  .four-circle-block ul li p b span {
+    font-size:20px;
+    font-weight: 600;
+  }
+
+  .openpay-content-row-top {
+    width: 100%;
+    margin: 0 auto 20px;
+    font-weight: 600;
+  }
+
+  .openpay-content-row-top p { 
+    font-family: 'canada-type-gibson', sans-serif;
+    color: #333332;
+    font-weight: 100;
+    font-size: 20px !important;
+  }
+
+
+
+  .available { 
+    margin-top:30px !important;
+    background: #333332 !important;
+  }
+
+  .available p { 
+    font-family: 'openpay_headlineregular';
+    color: #FFB81C !important;
+    line-height: 30px;
+  }
+
+  .openpay-content-row {
+    font-family: 'canada-type-gibson', sans-serif;
+    color: #333332;
+    font-weight: 100;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .started {
+    background: #F2F2F2;
+    width: 100%;
+
+  }
+
+  .started  ul {
+    padding: 30px 190px 0px 190px;
+    /*text-align: left;*/
+    text-align:left;
+  }
+
+  .started  ul li::before {
+    content: "\25A0";  
+    color: #FFB81C; 
+    width: 0em;
+    margin-left: 0em; 
+  }
+
+  .started ul li {
+    list-style-position: outside;  
+    display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
+    padding: 0px 0px 12px 0px;
+    width:33%;
+  }
+
+  .apps {
+    background: #FFB81C;
+    width: 100%;
+  }
+
+  .apps ul {
+    list-style: none;
+    text-align:center;
+  }
+
+  .apps ul li {
+    width: 44%;
+    display: inline;
+    margin: 0 auto;
+    padding:0px;
+  }
+
+  .apps ul li img {
+    width: 14%;
+  }
+
+  .quick {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 0 100px;
+  }
+
+  .quick h3 {
+    margin: 50px 0 30px;
+  }
+
+  .collapsible {
+    font-family: 'openpay_headlineregular';
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px 0 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    border-top:1px solid #000000;
+  }
+
+  .active, .collapsible:hover {
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: #FFB81C;
+    float: right;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 60px 0 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in;
+    background-color: #FFFFFF;
+    text-align: left !important;
+  }
+
+  .content p {
+    text-align:left !important;
+    font-size: 16px !important;
+    padding: 0px 0px 18px 0px !important;
+  }
+
+  .content a {
+    color:#FFB81C !important;
+  }
+
+  .footer {
+
+  }
+  .footer p {
+    font-size: 16px !important;
+  }
+
+  .footer a {
+    color:#FFB81C !important;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+
+    .four-circle-block ul li {
+      width: 45%;
+      display: inline-block;
+    }
+
+    .started {
+      padding: 25px !important;
+
+    }
+    .started  ul {
+      padding:25px 0px 0px 0px;
+    }
+
+    .started  ul li::before {
+
+    }
+
+    .started ul li {
+      vertical-align: top !important;
+      width:49%;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .openpay-head-block {
+      margin: 50px 0 0;
+    }
+
+    .openpay-head-block img{
+      width: 44%;
+    }
+
+    .openpay-wrap h1 {
+      font-size: 25px;
+      line-height: 25px;
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+
+    .openpay-wrap p {
+      font-size: 17px !important;
+      line-height: 22px;
+      text-align: center;
+      padding: 20px;
+    }
+    .openpay-content-row-top p span{ 
+      display:block;
+    }
+
+    .available {
+      margin-top:30px !important; 
+      padding: 9px 25px;
+    }
+    .available h2 span{
+      display:block;
+    }
+
+    .openpay-wrap h2 {
+      line-height: 24px;
+    }
+
+    .four-circle-block ul li img {
+      width: 60%;
+    }
+
+    .four-circle-block ul li {
+      width: 49%;
+      display: inline-block;
+      padding: 30px 15px;
+    }
+
+    .four-circle-block ul li p{
+      width: 100%;
+      display: inline-block;
+      line-height: 22px;
+    } 
+    .started {
+      padding: 25px 25px 0 25px!important;
+
+    }
+    .started  ul {
+      padding:25px 0px 0px 0px;
+    }
+
+    .started  ul li::before {
+
+    }
+
+    .started ul li {
+      vertical-align: top !important;
+      width: 48%;
+
+    }
+
+    .started ul li:nth-child(odd) {
 
 }
-.started  ul {
-    padding:25px 0px 0px 0px;
+    .started ul li:nth-child(even) {
+      float:right !important;
 }
 
-.started  ul li::before {
+    .quick {
+     padding: 0 20px;
+   }
 
-}
+   .quick h3 {
+    margin: 50px 0 30px;
+  }
 
-.started ul li {
-    vertical-align: top !important;
-    width: 48%;
-}
+  .apps ul li img {
+    width: 35%;
+  }
 
-.quick {
- padding: 0 20px;
-}
-
-.quick h3 {
-  margin: 50px 0 30px;
-}
-
-.apps ul li img {
-  width: 35%;
-}
-
-.collapsible {
+  .collapsible {
    padding: 18px 0 18px;
    width: 100%;
-}
+ }
 
-.content {
+ .content {
    padding: 0 40px 0 0;
-}
+ }
 
-.footer p {
+ .footer p {
   font-size: 16px !important;
 }
 
