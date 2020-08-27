@@ -1,4 +1,4 @@
-# OpenPay Landing Page
+# OpenPay Landing Page (UK Legacy version)
 
 ## Instructions
 1. Substitute [FROM] - [TO] in the [index.html](https://github.com/openpay-innovations/landing-page-uk/blob/master/index.html) file for the month plan tiers assigned to your menchant account.\
