@@ -1,334 +1,131 @@
 @import url("https://use.typekit.net/oob7tii.css");
-
-@font-face {
-  font-family: 'openpay_headlineregular';
-  src: url('../fonts/OpenpayHeadline.woff2') format('woff2'),
-  url('../fonts/OpenpayHeadline.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-html,
-body { scroll-behavior: smooth; }
+@font-face { font-family: 'openpay_headlineregular'; src: url('../fonts/OpenpayHeadline.woff2') format('woff2'), url('../fonts/OpenpayHeadline.woff') format('woff'); font-weight: normal; font-style: normal; }
+html, body { scroll-behavior: smooth; }
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
-a { /*text-decoration: none; color: #FFB81C !important;*/ }
-/*ul { list-style-position: inside;}  */
-img { /*max-width: 100%;*/ }
-p, ul { /*margin: 0 0 10px 0 !important;*/}
-p:nth-child(odd) { /*background: red;*//*margin: 0 0 10px 0;*/ }
-p:nth-child(even) {/* background: blue;*//*margin: 0 0 10px 0;*/ }    
 
-.openpaycenter {
-  font-family: 'canada-type-gibson', sans-serif; 
-  font-size: 16px; 
-  font-weight: normal;
-  color: #333332; 
-  background: #ffffff;
-  width: 100%; 
-  padding: 0px; 
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.openpaycenter img {
-    /*width: 100%;*/
-}
-.openpay-wrap {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.openpay-wrap p {
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  padding: 20px;
-  color: #333332;
-}
-
-.openpay-wrap p a {
-  color: #38465b;
-  font-weight: 600px;
-  text-decoration: underline;
-}
-
-.openpay-head-block {
-  width: 100%;
-  text-align:center;
-  position: relative;
-}
-
-.openpay-content-row-top {
-  width: 100%;
-  margin: 0 auto;
-  font-weight: 600;
-}
-
-.openpay-content-row-top p { 
-  font-family: 'canada-type-gibson', sans-serif;
-  color: #333332;
-  font-weight: 100;
-}
-
-.openpay-content-row-top h1 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-weight: normal;
-  line-height: 38px;
-  text-align: center;
-  padding: 5px 0 15px 0;
-  margin: 0 auto;
-  color: #333332;  
-}
-
-.openpay-content-row-top.available { 
-  text-align: center;
-  margin-top: 30px !important;
-  background: #333332 !important;
-}
-
-.openpay-content-row-top.available h2 { 
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  font-weight: normal;
-  color: #FFB81C;
-  background: #333332;
-}
-
-.openpay-wrap .four-circle-block {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 50px 0px 0px;
-}
-
-.openpay-wrap .four-circle-block h3 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  color: #333332;
-}
-
-.openpay-wrap .four-circle-block ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.openpay-wrap .four-circle-block ul li {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.openpay-wrap .four-circle-block ul li img {
-    text-align: top;
-    width: 54%;
-}
-
-.openpay-wrap .four-circle-block ul li p {
-  font-size: 16px;
-  font-weight:100;
-  text-align: center;
-  margin: 0 auto;
-  padding:15px 0 0 0;
-}
-
-.openpay-wrap .four-circle-block ul li b {
-  font-family: 'openpay_headlineregular';
-  font-weight: 10;
-}
-
-.openpay-wrap .four-circle-block ul li p b span {
-  font-size:20px;
-  font-weight: 600;
-}
-
-.openpay-wrap .openpay-content-row.started {
-  background: #F2F2F2;
-  font-weight:100;
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px;
-  font-size: 30;
-}
-
-.openpay-wrap .openpay-content-row.started h3 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 36px;
-  text-align: center;
-  color: #333332;
-}
-
-.openpay-wrap .openpay-content-row.started  ul {
-  text-align:center;
-}
-
-.openpay-wrap .openpay-content-row.started  ul li::before {
-  content: "\25A0";  
-  color: #FFB81C; 
-  width: 0em;
-  margin-left: 0em; 
-}
-
-.openpay-wrap .openpay-content-row.started ul li {
-  list-style-position: outside;  
-  display: inline-block;
-  vertical-align: top;
-  text-align: left !important;
-  padding: 0px 0px 12px 0px;
-}
-
-.openpay-wrap .openpay-content-row.quick { 
-  width: 100%;
-}
-
-.openpay-wrap .openpay-content-row.quick h3 {
-  font-family: 'openpay_headlineregular', sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  color: #333332;
-  margin: 50px 0 30px;
-} 
-
-.openpay-wrap .openpay-content-row.quick .collapsible {
-    background: #FFFFFF;
-    font-family: 'openpay_headlineregular';
-    font-size: 14px;
-    font-weight: normal;
-    cursor: pointer;
-    padding: 18px 0 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    border-top:1px solid #333332;
-}
-
-.openpay-wrap .openpay-content-row.quick .collapsible:last-child {
-    /* border-top:1px solid #000000;*/
-    /*border-bottom:1px solid #333332;   */
-}
-
-.openpay-wrap .openpay-content-row.quick .collapsible:after {
-    content: '\002B';
-    color: #FFB81C;
-    float: right;
-}
-
-.openpay-wrap .openpay-content-row.quick .active:after {
-    content: "\2212";
-}
-
-.openpay-wrap .openpay-content-row.quick .content {
-    padding: 0 60px 0 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in;
-    background-color: #FFFFFF;
-    text-align: left !important;
-}
-
-.openpay-wrap .openpay-content-row.quick .content p {
-    text-align:left !important;
-    font-size: 16px !important;
-    font-weight: 100;
-    padding: 0px 0px 18px 0px !important;
-}
-
-.openpay-wrap .openpay-content-row.quick .content a {
-    color:#FFB81C !important;
-}
-.openpay-wrap .openpay-content-row.footer {
-    width: 100%;
-    margin: 40px 0 0 0;
-}
-.openpay-wrap .openpay-content-row.footer p{
-    font-size: 16px !important;
-    font-weight: 100;
-}
-
-.openpay-wrap .openpay-content-row.footer a {
-    color:#FFB81C !important;
-}
+.openpay-center { font-family: 'canada-type-gibson', sans-serif; font-size: 16px; color: #333332; width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; }
+.openpay-wrap { vertical-align: top; }
+.openpay-head-block {}
+.openpay-content-row { width: 100%; }
+.openpay-content-row h1 { font-family: 'openpay_headlineregular', sans-serif; font-size: 24px; font-weight: normal; letter-spacing: 1px; line-height: 36px;  }  
+.openpay-content-row.available { width: 100%; background: #333332; }
+.openpay-content-row.available h2 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; letter-spacing: 1px; color: #FFFFFF; }
+.openpay-wrap .four-circle-block ul { list-style: none; width: 100%; }
+.openpay-wrap .four-circle-block ul li { display: inline-block; vertical-align: top; }
+.openpay-wrap .four-circle-block ul li p { font-weight: lighter; }
+.openpay-wrap .four-circle-block h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal;  }
+.openpay-wrap .four-circle-block ul li p b {font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
+.openpay-wrap .four-circle-block ul li p b span { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal;} 
+.openpay-wrap .openpay-content-row.started { background: #FFB81C; font-weight:100;  width: 100%; }
+.openpay-wrap .openpay-content-row.started h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
+.openpay-wrap .openpay-content-row.started ul { list-style-type: none; width: 100%; display: inline-block; text-align: center;}
+.openpay-wrap .openpay-content-row.started ul li { list-style-position: inside; text-align: left; }
+.openpay-wrap .openpay-content-row.quick { background: #FFFFFF;  }
+.openpay-wrap .openpay-content-row.quick h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
+.openpay-wrap .openpay-content-row.quick .collapsible { font-family: 'openpay_headlineregular'; font-weight: normal; background: #FFFFFF; cursor: pointer; width: 100%; border: none; text-align: left; outline: none; border-top:1px solid #333332; }
+.openpay-wrap .openpay-content-row.quick .collapsible:after { content: '\002B'; color: #FFB81C; float: right; }
+.openpay-wrap .openpay-content-row.quick .active:after { content: "\2212"; }
+.openpay-wrap .openpay-content-row.quick .content { max-height: 0; overflow: hidden; transition: max-height 0.2s ease-in; background-color: #FFFFFF; text-align: left; }
+.openpay-wrap .openpay-content-row.quick .content p { text-align:left; font-weight: 100; }
+.openpay-wrap .openpay-content-row.quick .content a { color: #333332; text-decoration: underline; }
+.openpay-wrap .openpay-content-row.quick .quick-end { border-top:1px solid #333332; background:yellow; height:1px;} 
+.openpay-wrap .openpay-content-row.footer { width: 100%; }
+.openpay-wrap .openpay-content-row.footer p { font-weight: 100; }
+.openpay-wrap .openpay-content-row.footer a { color: #A36A00 !important; }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .openpay-head-block { width:100%; }  
-    .openpay-head-block img { width: 44%; margin: 80px 0px 0px 0px;}  
-    .openpay-content-row-top h1 { font-size: 25px; }   
-    .openpay-content-row-top p { font-size: 17px !important; }
-    .openpay-content-row-top p span { display:block; }
-    .openpay-content-row-top.available h2 { padding: 12px 0; }
-    .openpay-content-row-top.available h2 span{ display:block; }
-    .openpay-wrap .four-circle-block ul li { width: 45% !important; padding: 30px 30px; }
-    .openpay-wrap .four-circle-block ul li p { line-height: 22px; }
-    .openpay-wrap .openpay-content-row.started  ul { padding: 30px 0px 0px 0px; }
-    .openpay-wrap .openpay-content-row.started  ul li { width: 49%;} 
-    .openpay-wrap .openpay-content-row.quick { padding: 0 20px; }    
+  .openpay-head-block { margin-top:32px; background: width:100%; }  
+  .openpay-head-block img { width: 243px; height:36px;}
+  .openpay-content-row.h1 { margin-top: 28px; }
+  .openpay-content-row h1 span { display: block; }  
+  .openpay-content-row.available { margin-top: 58px; padding: 15px 0; }
+  .openpay-content-row.available h2 { font-size: 16px; line-height: 30px; }
+  .openpay-content-row.available h2 span { display: block; }
+  .openpay-wrap .four-circle-block { margin-top: 40px; }
+  .openpay-wrap .four-circle-block h3 { font-size: 28px; letter-spacing: 1px; line-height: 42px; }
+  .openpay-wrap .four-circle-block ul { margin-top: 30px; }
+  .openpay-wrap .four-circle-block ul li { margin: 0px 10px; }
+  .openpay-wrap .four-circle-block ul li img { height: 90px; }
+  .openpay-wrap .four-circle-block ul li.shop { width: 41%; }
+  .openpay-wrap .four-circle-block ul li.signup { width: 41%; }
+  .openpay-wrap .four-circle-block ul li.spreadit { width: 41%; }
+  .openpay-wrap .four-circle-block ul li.sitback { width: 41%; }
+  .openpay-wrap .four-circle-block ul li p { font-size: 16px; line-height: 24px; margin: 10px 0px; }
+  .openpay-wrap .four-circle-block ul li p b { font-size: 24px; line-height: 35px; letter-spacing:0px; }
+  .openpay-wrap .four-circle-block ul li p b span { font-size: 32px; line-height: 54px; letter-spacing:0px; padding:0px 5px; } 
+  .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 40px 0 18px 0px; }
+  .openpay-wrap .openpay-content-row.started h3 { font-size: 28px; line-height: 46px; }
+  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { font-size: 16px; line-height: 24px; width: 49%; float:left;margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul li:before { margin-right:10px;  content: "\25A0"; font-size:18px; width: 0em; margin-left: 0em; }
+  .openpay-wrap .openpay-content-row.quick { margin: 50px 0 40px; padding: 15px 0 28px 0px;}    
+  .openpay-wrap .openpay-content-row.quick h3 { font-size:28px; font-height:42px; margin-bottom:26px;}    
+  .openpay-wrap .openpay-content-row.quick { width: 90%;margin: 0 auto; }
+  .openpay-wrap .openpay-content-row.quick .collapsible { font-size: 16px; letter-spacing: 1px; padding:15px 15px 15px 0px;}
+  .openpay-wrap .openpay-content-row.quick .content { font-size: 16px; }
+  .openpay-wrap .openpay-content-row.quick .content p { padding: 0px 80px 15px 0px; }
+  .openpay-wrap .openpay-content-row.footer { margin: 30px 0 68px 0;}
+  .openpay-wrap .openpay-content-row.footer p { font-size: 16px !important;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .openpay-head-block { width:100%; }  
-    .openpay-head-block img { width: 45%; margin: 70px 0px 0px 0px;}  
-    .openpay-content-row-top h1 { font-size: 24px; }   
-    .openpay-content-row-top p { font-size: 17px !important; }
-    .openpay-content-row-top p span { display:block; }
-    .openpay-content-row-top.available h2 { padding: 14px 0; }
-    .openpay-wrap .four-circle-block ul li {  width: 45% !important; padding: 30px 30px;}
-    .openpay-wrap .four-circle-block ul li p { line-height: 22px; }
-    .openpay-wrap .openpay-content-row.started ul { padding: 30px 0px 0px 0px; }
-    .openpay-wrap .openpay-content-row.started ul li { width:40%; } 
-    .openpay-wrap .openpay-content-row.quick { padding: 0 80px; }  
+  .openpay-head-block { margin-top:65px; background: width:100%; }  
+  .openpay-head-block img { width: 406px; height: 60px; }  
+  .openpay-content-row.h1 { margin-top: 28px; }
+  .openpay-content-row h1 span { display: inline !important; }
+  .openpay-content-row.available { margin-top: 58px; padding: 13px 0; }
+  .openpay-content-row.available h2 { font-size: 24px; line-height: 32px; }
+  .openpay-content-row.available h2 span { display: inline; }
+  .openpay-wrap .four-circle-block {margin-top: 60px; }
+  .openpay-wrap .four-circle-block h3 { font-size: 28px; letter-spacing: 1px; line-height: 42px; }
+  .openpay-wrap .four-circle-block ul { margin-top:30px; }
+  .openpay-wrap .four-circle-block ul li {}
+  .openpay-wrap .four-circle-block ul li img { height: 110px; }
+  .openpay-wrap .four-circle-block ul li.shop { width: 40%; }
+  .openpay-wrap .four-circle-block ul li.signup { width: 40%; }
+  .openpay-wrap .four-circle-block ul li.spreadit { width: 40%; }
+  .openpay-wrap .four-circle-block ul li.sitback { width: 40%; }
+  .openpay-wrap .four-circle-block ul li p { font-size: 16px; line-height: 24px; margin: 10px 0px; }
+  .openpay-wrap .four-circle-block ul li p b { font-size: 24px; line-height: 35px; letter-spacing:1px; }
+  .openpay-wrap .four-circle-block ul li p b span { font-size: 36px; line-height: 54px; letter-spacing:0px; padding:0px 13px; } 
+  .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 60px 0 28px 0px; }
+  .openpay-wrap .openpay-content-row.started h3 { font-size: 28px; line-height: 46px; }
+  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { font-size: 24px; line-height: 24px; width: 49%; float:left; margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; content: "\25A0"; font-size:34px; width: 0em; margin-left: 0em; }
+  .openpay-wrap .openpay-content-row.quick { margin: 50px 0 40px; padding: 15px 0 28px 0px;}    
+  .openpay-wrap .openpay-content-row.quick h3 { font-size:28px; font-height:42px; margin-bottom:26px;}    
+  .openpay-wrap .openpay-content-row.quick { width: 90%; margin: 0 auto; }
+  .openpay-wrap .openpay-content-row.quick .collapsible { font-size: 16px; letter-spacing: 1px; padding:15px;}
+  .openpay-wrap .openpay-content-row.quick .content { font-size: 16px; }
+  .openpay-wrap .openpay-content-row.quick .content p { padding: 0px 80px 15px 15px; }
+  .openpay-wrap .openpay-content-row.footer { margin: 30px 0 68px 0;}
+  .openpay-wrap .openpay-content-row.footer p { font-size: 16px !important;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .openpay-head-block { width:100%; }  
-    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px;} 
-    .openpay-content-row-top h1 { font-size: 28px; }  
-    .openpay-content-row-top p { font-size: 20px !important; }
-    .openpay-content-row-top p span { display: inline; }    
-    .openpay-content-row-top.available h2 { padding: 16px 0; }
-    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 20px; }
-    .openpay-wrap .four-circle-block ul li p { line-height: 24px; }  
-    .openpay-wrap .openpay-content-row.started ul { padding: 30px 0px 0px 0px; }  
-    .openpay-wrap .openpay-content-row.started ul li { width:40%;} 
-    .openpay-wrap .openpay-content-row.quick { padding: 0 80px; }  
-} 
+  .openpay-wrap .four-circle-block ul li {  }
+  .openpay-wrap .four-circle-block ul li.shop { width: 156px; }
+  .openpay-wrap .four-circle-block ul li.signup { width: 160px; }
+  .openpay-wrap .four-circle-block ul li.spreadit { width: 184px; }
+  .openpay-wrap .four-circle-block ul li.sitback { width: 188px; }
+  .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 60px 0 28px 0px; }
+  .openpay-wrap .openpay-content-row.started h3 { font-size: 28px; line-height: 46px; }
+  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { font-size: 24px; line-height: 24px; width:49%; float:left;margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; }  
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .openpay-head-block { width:100%; }  
-    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px; }
-    .openpay-content-row-top h1 { font-size: 36px; }
-    .openpay-content-row-top p { font-size: 20px !important; }
-    .openpay-content-row-top p span { display: inline; }
-    .openpay-content-row-top.available h2 { padding: 16px 0; }                
-    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 25px;}
-    .openpay-wrap .four-circle-block ul li p { line-height: 24px; }    
-    .openpay-wrap .openpay-content-row.started ul { padding: 30px 100px 0px 100px; }
-    .openpay-wrap .openpay-content-row.started ul li { width:33%;} 
-    .openpay-wrap .openpay-content-row.quick { padding: 0 100px; }  
+  .openpay-wrap .four-circle-block ul li { margin: 0px 25px; }
+  .openpay-wrap .openpay-content-row.started ul { width: 70%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { font-size: 24px; line-height: 24px; width:33%; float:left;margin-bottom:16px; }  
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .openpay-head-block { width:100%; }  
-    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px;}
-    .openpay-content-row-top h1 { font-size: 36px; }
-    .openpay-content-row-top p { font-size: 20px !important; }
-    .openpay-content-row-top p span { display: inline; } 
-    .openpay-content-row-top.available h2 { padding: 16px 0; }
-    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 30px; line-height: 24px; }
-    .openpay-wrap .openpay-content-row.started ul { padding: 30px 190px 0px 190px; }
-    .openpay-wrap .openpay-content-row.started ul li { width:33%; } 
-    .openpay-wrap .openpay-content-row.quick { padding: 0 100px; }
 }
-
-
