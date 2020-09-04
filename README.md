@@ -1,4 +1,4 @@
-# OpenPay Landing Page
+# OpenPay UK Landing Page
 
 ## Instructions
 1. Substitute "X-X" in the "Spread the cost over X–X monthly instalments." for the month plan tiers assigned to your menchant account.\
