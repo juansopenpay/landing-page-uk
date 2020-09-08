@@ -93,7 +93,7 @@ html, body { scroll-behavior: smooth; }
   .openpay-wrap .openpay-content-row.started h3 { font-size: 28px; line-height: 46px; }
   .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
   .openpay-wrap .openpay-content-row.started ul li { font-size: 24px; line-height: 24px; width: 49%; float:left; margin-bottom:16px; }  
-  .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; content: "\25A0"; font-size:16px; width: 0em; margin-left: 0em; }
+  .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; content: "\25A0"; font-size:24px; width: 0em; margin-left: 0em; }
   .openpay-wrap .openpay-content-row.quick { margin: 50px 0 40px; padding: 15px 0 28px 0px; }    
   .openpay-wrap .openpay-content-row.quick h3 { font-size:28px; font-height:42px; margin-bottom:26px; }    
   .openpay-wrap .openpay-content-row.quick { width: 90%; margin: 0 auto; }
@@ -121,7 +121,7 @@ html, body { scroll-behavior: smooth; }
 @media only screen and (min-width: 992px) {
   .openpay-wrap .four-circle-block ul li { margin: 0px 25px; }
   .openpay-wrap .openpay-content-row.started ul { width: 70%; margin: 25px 0 0 0; }
-  .openpay-wrap .openpay-content-row.started ul li { font-size: 24px; line-height: 24px; width:33%; float:left; margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul li { font-size: 16px; line-height: 24px; width:33%; float:left; margin-bottom:16px; }  
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
