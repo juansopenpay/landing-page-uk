@@ -30,7 +30,7 @@ ol li, ul li {padding: 0;}
 .openpay-wrap .openpay-content-row.quick .content a { color: #333332 !important; text-decoration: underline; }
 .openpay-wrap .openpay-content-row.quick .quick-end { border-top:1px solid #333332; background:yellow; height:1px;} 
 .openpay-wrap .openpay-content-row.footer { background: #FFFFFF !important; width: 100%; }
-.openpay-wrap .openpay-content-row.footer p { font-weight: 100; }
+.openpay-wrap .openpay-content-row.footer p { color: #333332 !important; font-weight: 100; }
 .openpay-wrap .openpay-content-row.footer a { color: #A36A00 !important; }
 
 /* Extra small devices (phones, 600px and down) */
@@ -65,7 +65,7 @@ ol li, ul li {padding: 0;}
   .openpay-wrap .openpay-content-row.quick .collapsible { font-size: 16px !important; letter-spacing: 1px; padding:15px 15px 15px 0px;}
   .openpay-wrap .openpay-content-row.quick .content { font-size: 16px !important; }
   .openpay-wrap .openpay-content-row.quick .content p { padding: 0px 80px 15px 0px; letter-spacing: 1.5px;}
-  .openpay-wrap .openpay-content-row.footer { background: #FFFFFF !important; margin: 30px 0 68px 0;}
+  .openpay-wrap .openpay-content-row.footer { color: #333332 !important; background: #FFFFFF !important; margin: 30px 0 68px 0;}
   .openpay-wrap .openpay-content-row.footer p { font-size: 16px !important;}
 }
 
@@ -101,7 +101,7 @@ ol li, ul li {padding: 0;}
   .openpay-wrap .openpay-content-row.quick .content { font-size: 16px !important; }
   .openpay-wrap .openpay-content-row.quick .content p { padding: 0px 80px 15px 15px; letter-spacing: 1.5px;}
   .openpay-wrap .openpay-content-row.footer { background: #FFFFFF !important; margin: 30px 0 68px 0; }
-  .openpay-wrap .openpay-content-row.footer p { font-size: 16px !important; }
+  .openpay-wrap .openpay-content-row.footer p { color: #333332 !important; font-size: 16px !important; }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
