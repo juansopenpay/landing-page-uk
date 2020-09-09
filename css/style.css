@@ -9,20 +9,20 @@ ol li, ul li {padding: 0;}
 .openpay-content-row { width: 100%; }
 .openpay-content-row h1 { font-family: 'openpay_headlineregular', sans-serif; font-size: 24px !important; font-weight: normal !important; letter-spacing: 1px; line-height: 36px;  }  
 .openpay-content-row.available { width: 100%; background: #333332; }
-.openpay-content-row.available h2 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; letter-spacing: 1px; color: #FFFFFF; }
+.openpay-content-row.available h2 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; letter-spacing: 1px; color: #FFFFFF; }
 .openpay-wrap .four-circle-block ul { list-style: none; width: 100%; }
 .openpay-wrap .four-circle-block ul li { display: inline-block; vertical-align: top; }
 .openpay-wrap .four-circle-block ul li p { font-weight: lighter; }
-.openpay-wrap .four-circle-block h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal;  }
-.openpay-wrap .four-circle-block ul li p b {font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
-.openpay-wrap .four-circle-block ul li p b span { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal;} 
+.openpay-wrap .four-circle-block h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important;  }
+.openpay-wrap .four-circle-block ul li p b {font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
+.openpay-wrap .four-circle-block ul li p b span { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important;} 
 .openpay-wrap .openpay-content-row.started { background: #FFB81C; font-weight:100;  width: 100%; }
-.openpay-wrap .openpay-content-row.started h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
+.openpay-wrap .openpay-content-row.started h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
 .openpay-wrap .openpay-content-row.started ul { list-style-type: none; width: 100%; display: inline-block; text-align: center;}
 .openpay-wrap .openpay-content-row.started ul li { list-style-position: inside; text-align: left; }
 .openpay-wrap .openpay-content-row.quick { background: #FFFFFF;  }
-.openpay-wrap .openpay-content-row.quick h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; }
-.openpay-wrap .openpay-content-row.quick .collapsible { font-family: 'openpay_headlineregular'; font-weight: normal; background: #FFFFFF; cursor: pointer; width: 100%; border: none; text-align: left; outline: none; border-top:1px solid #333332; }
+.openpay-wrap .openpay-content-row.quick h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
+.openpay-wrap .openpay-content-row.quick .collapsible { font-family: 'openpay_headlineregular'; font-weight: normal !important; background: #FFFFFF; cursor: pointer; width: 100%; border: none; text-align: left; outline: none; border-top:1px solid #333332; }
 .openpay-wrap .openpay-content-row.quick .collapsible:after { content: '\002B'; color: #FFB81C; float: right; }
 .openpay-wrap .openpay-content-row.quick .active:after { content: "\2212"; }
 .openpay-wrap .openpay-content-row.quick .content { max-height: 0; overflow: hidden; transition: max-height 0.2s ease-in; background-color: #FFFFFF; text-align: left; }
