@@ -2,12 +2,12 @@
 @font-face { font-family: 'openpay_headlineregular'; src: url('../fonts/OpenpayHeadline.woff2') format('woff2'), url('../fonts/OpenpayHeadline.woff') format('woff'); font-weight: normal; font-style: normal; }
 html, body { scroll-behavior: smooth; }
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
-
+ol li, ul li {padding: 0;}
 .openpay-center { font-family: 'canada-type-gibson', sans-serif; font-size: 16px; color: #333332; width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; }
 .openpay-wrap { vertical-align: top; }
 .openpay-head-block {}
 .openpay-content-row { width: 100%; }
-.openpay-content-row h1 { font-family: 'openpay_headlineregular', sans-serif; font-size: 24px; font-weight: normal; letter-spacing: 1px; line-height: 36px;  }  
+.openpay-content-row h1 { font-family: 'openpay_headlineregular', sans-serif; font-size: 24px !important; font-weight: normal !important; letter-spacing: 1px; line-height: 36px;  }  
 .openpay-content-row.available { width: 100%; background: #333332; }
 .openpay-content-row.available h2 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal; letter-spacing: 1px; color: #FFFFFF; }
 .openpay-wrap .four-circle-block ul { list-style: none; width: 100%; }
@@ -81,7 +81,7 @@ html, body { scroll-behavior: smooth; }
   .openpay-wrap .four-circle-block {margin-top: 60px; }
   .openpay-wrap .four-circle-block h3 { font-size: 28px; letter-spacing: 1px; line-height: 42px; }
   .openpay-wrap .four-circle-block ul { margin-top:30px; }
-  .openpay-wrap .four-circle-block ul li img { height: 110px; }
+  .openpay-wrap .four-circle-block ul li img { height: 110px !important; }
   .openpay-wrap .four-circle-block ul li.shop { width: 40%; }
   .openpay-wrap .four-circle-block ul li.signup { width: 40%; }
   .openpay-wrap .four-circle-block ul li.spreadit { width: 40%; }
