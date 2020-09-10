@@ -2,7 +2,7 @@
 @font-face { font-family: 'openpay_headlineregular'; src: url('../fonts/OpenpayHeadline.woff2') format('woff2'), url('../fonts/OpenpayHeadline.woff') format('woff'); font-weight: normal; font-style: normal; }
 html, body { scroll-behavior: smooth; }
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
-ol li, ul li {padding: 0;}
+
 .openpay-center { font-family: 'canada-type-gibson', sans-serif; font-size: 16px; color: #333332 !important; width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; }
 .openpay-wrap { vertical-align: top; }
 .openpay-head-block {}
@@ -10,15 +10,15 @@ ol li, ul li {padding: 0;}
 .openpay-content-row h1 { font-family: 'openpay_headlineregular', sans-serif; font-size: 24px !important; font-weight: normal !important; letter-spacing: 1px; line-height: 36px;  }  
 .openpay-content-row.available { width: 100%; background: #333332 !important; }
 .openpay-content-row.available h2 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; letter-spacing: 1px; color: #FFFFFF; }
-.openpay-wrap .four-circle-block ul { list-style: none; width: 100%; }
-.openpay-wrap .four-circle-block ul li { display: inline-block; vertical-align: top; }
+.openpay-wrap .four-circle-block ul { padding: 0; list-style: none; width: 100%; }
+.openpay-wrap .four-circle-block ul li { padding: 0; display: inline-block; vertical-align: top; }
 .openpay-wrap .four-circle-block ul li p { font-weight: lighter; }
 .openpay-wrap .four-circle-block h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important;  }
 .openpay-wrap .four-circle-block ul li p b {font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
 .openpay-wrap .four-circle-block ul li p b span { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important;} 
 .openpay-wrap .openpay-content-row.started { background: #FFB81C; font-weight:100;  width: 100%; }
 .openpay-wrap .openpay-content-row.started h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
-.openpay-wrap .openpay-content-row.started ul { list-style-type: none; width: 100%; display: inline-block; text-align: center;}
+.openpay-wrap .openpay-content-row.started ul { padding: 0; list-style-type: none; width: 100%; display: inline-block; text-align: center;}
 .openpay-wrap .openpay-content-row.started ul li { list-style-position: inside; text-align: left; }
 .openpay-wrap .openpay-content-row.quick { background: #FFFFFF;  }
 .openpay-wrap .openpay-content-row.quick h3 { font-family: 'openpay_headlineregular', sans-serif; font-weight: normal !important; }
@@ -44,20 +44,20 @@ ol li, ul li {padding: 0;}
   .openpay-content-row.available h2 span { display: block; }
   .openpay-wrap .four-circle-block { margin-top: 40px; }
   .openpay-wrap .four-circle-block h3 { font-size: 28px; letter-spacing: 1px; line-height: 42px; }
-  .openpay-wrap .four-circle-block ul { margin-top: 30px; }
+  .openpay-wrap .four-circle-block ul { padding:0px; margin-top: 30px; }
   .openpay-wrap .four-circle-block ul li { margin: 0px 10px; }
   .openpay-wrap .four-circle-block ul li img { height: 90px; }
-  .openpay-wrap .four-circle-block ul li.shop { width: 41%; }
-  .openpay-wrap .four-circle-block ul li.signup { width: 41%; }
-  .openpay-wrap .four-circle-block ul li.spreadit { width: 41%; }
-  .openpay-wrap .four-circle-block ul li.sitback { width: 41%; }
+  .openpay-wrap .four-circle-block ul li.shop { padding:0px; width: 41%; }
+  .openpay-wrap .four-circle-block ul li.signup { padding:0px; width: 41%; }
+  .openpay-wrap .four-circle-block ul li.spreadit { padding:0px; width: 41%; }
+  .openpay-wrap .four-circle-block ul li.sitback { padding:0px; width: 41%; }
   .openpay-wrap .four-circle-block ul li p { font-size: 16px !important; line-height: 24px; margin: 10px 0px; }
   .openpay-wrap .four-circle-block ul li p b { font-size: 24px !important; line-height: 35px; letter-spacing:0px; }
   .openpay-wrap .four-circle-block ul li p b span { font-size: 32px !important; line-height: 54px; letter-spacing:0px; padding:0px 5px; } 
   .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 40px 0 18px 0px; }
   .openpay-wrap .openpay-content-row.started h3 { font-size: 28px !important; line-height: 46px; }
-  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
-  .openpay-wrap .openpay-content-row.started ul li { font-size: 16px !important; line-height: 24px; width: 49%; float:left;margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul { padding:0px; width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { padding:0px; font-size: 16px !important; line-height: 24px; width: 49%; float:left;margin-bottom:16px; }  
   .openpay-wrap .openpay-content-row.started ul li:before { margin-right:10px;  content: "\25A0"; font-size:18px; width: 0em; margin-left: 0em; }
   .openpay-wrap .openpay-content-row.quick { margin: 50px 0 40px; padding: 15px 0 28px 0px;}    
   .openpay-wrap .openpay-content-row.quick h3 { font-size:28px !important; font-height:42px; margin-bottom:26px;}    
@@ -80,19 +80,19 @@ ol li, ul li {padding: 0;}
   .openpay-content-row.available h2 span { display: inline; }
   .openpay-wrap .four-circle-block {margin-top: 60px; }
   .openpay-wrap .four-circle-block h3 { font-size: 28px !important; letter-spacing: 1px; line-height: 42px; }
-  .openpay-wrap .four-circle-block ul { margin-top:30px; }
+  .openpay-wrap .four-circle-block ul { padding:0px; margin-top:30px; }
   .openpay-wrap .four-circle-block ul li img { height: 110px !important; }
-  .openpay-wrap .four-circle-block ul li.shop { width: 40%; }
-  .openpay-wrap .four-circle-block ul li.signup { width: 40%; }
-  .openpay-wrap .four-circle-block ul li.spreadit { width: 40%; }
-  .openpay-wrap .four-circle-block ul li.sitback { width: 40%; }
+  .openpay-wrap .four-circle-block ul li.shop { padding:0px; width: 40%; }
+  .openpay-wrap .four-circle-block ul li.signup { padding:0px; width: 40%; }
+  .openpay-wrap .four-circle-block ul li.spreadit { padding:0px; width: 40%; }
+  .openpay-wrap .four-circle-block ul li.sitback { padding:0px; width: 40%; }
   .openpay-wrap .four-circle-block ul li p { font-size: 16px !important; line-height: 24px; margin: 10px 0px; }
   .openpay-wrap .four-circle-block ul li p b { font-size: 24px !important; line-height: 35px; letter-spacing:1px; }
   .openpay-wrap .four-circle-block ul li p b span { font-size: 36px !important; line-height: 54px; letter-spacing:0px; padding:0px 13px; } 
   .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 60px 0 28px 0px; }
   .openpay-wrap .openpay-content-row.started h3 { font-size: 28px !important; line-height: 46px; }
-  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
-  .openpay-wrap .openpay-content-row.started ul li { font-size: 24px !important; line-height: 24px; width: 49%; float:left; margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul { padding:0px; width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { padding:0px; font-size: 24px !important; line-height: 24px; width: 49%; float:left; margin-bottom:16px; }  
   .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; content: "\25A0"; font-size:24px; width: 0em; margin-left: 0em; }
   .openpay-wrap .openpay-content-row.quick { margin: 50px 0 40px; padding: 15px 0 28px 0px; }    
   .openpay-wrap .openpay-content-row.quick h3 { font-size:28px !important; font-height:42px; margin-bottom:26px; }    
@@ -112,8 +112,8 @@ ol li, ul li {padding: 0;}
   .openpay-wrap .four-circle-block ul li.sitback { width: 188px; }
   .openpay-wrap .openpay-content-row.started { margin: 50px 0 40px; padding: 60px 0 28px 0px; }
   .openpay-wrap .openpay-content-row.started h3 { font-size: 28px !important; line-height: 46px; }
-  .openpay-wrap .openpay-content-row.started ul { width: 90%; margin: 25px 0 0 0; }
-  .openpay-wrap .openpay-content-row.started ul li { font-size: 16px !important; line-height: 24px; width:49%; float:left; margin-bottom:16px; }  
+  .openpay-wrap .openpay-content-row.started ul { padding:0px; width: 90%; margin: 25px 0 0 0; }
+  .openpay-wrap .openpay-content-row.started ul li { padding:0px; font-size: 16px !important; line-height: 24px; width:49%; float:left; margin-bottom:16px; }  
   .openpay-wrap .openpay-content-row.started ul li:before { margin-right:15px; }  
 }
 
